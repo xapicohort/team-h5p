@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://ENTER_ACTIVITY_ID" type="http://adlnet.gov/expapi/activities/course">
+			<name>ENTER ACTIVITY NAME</name>
+			<description lang="en-US">ENTER ACTIVITY DESCRIPTION</description>
+			<launch lang="en-us">index.html</launch>
+		</activity>
+	</activities>
+</tincan>
