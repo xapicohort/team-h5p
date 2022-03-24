@@ -1,0 +1,2 @@
+* Rename the H5P file extension from .h5p file to .zip
+* Extract and place the files here

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns="http://projecttincan.com/tincan.xsd">
+  <activities>
+    <activity id="http://xapicohort.com/xapi/activities/team-h5p/h5p-standalone/test-01" type="http://adlnet.gov/expapi/activities/course">
+      <name>h5p Standalone Test 01</name>
+      <description lang="en-US">Uses an h5p exported from h5p.org</description>
+      <launch lang="en-us">index.html</launch>
+    </activity>
+  </activities>
+</tincan>
