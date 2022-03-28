@@ -1,9 +1,10 @@
+# Overview
+
+This is a work-in-progress: to capture xAPI statements from H5P interactives and forward to an LRS. The code will be implemented to work with [H5P Standalone Player](https://github.com/tunapanda/h5p-standalone) by [Tunapanda](https://github.com/tunapanda/).
+
 Below are steps to setup [H5P Standalone Player](https://github.com/tunapanda/h5p-standalone) (by Tunapanda) on your local computer. This setup will display H5P interactives from a web server. It's not designed to be launched from an LMS. 
 
-**Important**: This setup does not yet capture and forward xAPI statements from H5P interactives.
-
 To see a working version of the standalone server, download and extract this [zip file ](https://drive.google.com/file/d/178PKI1dSr28o1JooUahtzCV8pLVPYfEY/view?usp=sharing), then skip to the **Run the standalone player** section below. 
-
 
 ## Download the player
 1. Go to the H5P Standalone [releases page](https://github.com/tunapanda/h5p-standalone/releases/tag/v3.5.0).
@@ -11,16 +12,16 @@ To see a working version of the standalone server, download and extract this [zi
 3. Extract the contents of the zip file. The file should unzip to a folder named `h5p-standalone-3.5.0`.
 
 ## Download sample HTML files 
-4. Go to [h5p-standalone/test](https://github.com/tunapanda/h5p-standalone/tree/master/test) and download these two sample HTML files to your `h5p-standalone-3.5.0` folder:  `single.html` and `multiple.html`. **Be sure to download the Raw files from GitHub.**
+1. Go to [h5p-standalone/test](https://github.com/tunapanda/h5p-standalone/tree/master/test) and download these two sample HTML files to your `h5p-standalone-3.5.0` folder:  `single.html` and `multiple.html`. **Be sure to download the Raw files from GitHub.**
 
 ## Add H5P content
-5. Within  the `h5p-standalone-3.5.0` folder, create a folder named `content.`
-6. Extract a couple of H5P files to the `content` folder. 
+1. Within  the `h5p-standalone-3.5.0` folder, create a folder named `content.`
+2. Extract a couple of H5P files to the `content` folder. 
 a. Change `.h5p` to `.zip`.
 b. Copy the folder to `content`.
 
 ## Modify the HTML files to point to the H5P content
-7. Open `single.html` and  set `h5pJsonPath` to the path of the H5P content: `/content/h5p-folder-name` ... for example `/content/sort-paragraphs`.
+1. Open `single.html` and  set `h5pJsonPath` to the path of the H5P content: `/content/h5p-folder-name` ... for example `/content/sort-paragraphs`.
 8. Open `multiple.html` and do the same.
 
 ## Run the standalone player
