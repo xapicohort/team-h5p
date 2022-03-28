@@ -6,9 +6,11 @@
 ### [h5p Standalone xAPI Wrapper](h5p-standalone-xapi-wrapper/README.md)
 - Results in xAPI package
 - Uses any valid H5P export along with the [h5p-standalone](https://github.com/tunapanda/h5p-standalone) player from [Tunapanda](https://tunapanda.org/)
-- Also see [discussion here](https://github.com/orgs/xapicohort/teams/team-h5p/discussions/2) with some instructions for multiple players on a page 
-  - *(must be logged in)*
 
 ### [Lumi Standalone xAPI Wrapper](lumi-standalone-xapi-wrapper/README.md)
 - Results in xAPI package 
 - Uses [Lumi](https://lumi.education/) desktop app to author and export interactions 
+
+### [h5p Standalone Server](h5p-standalone-server/README.md)
+- Has instructions for setting up an H5P standalone player/server, including presenting multiple interactives on a page. 
+- Is a work-in-progress; **xAPI not implemented yet**
