@@ -2,6 +2,8 @@
 
 [xAPI Cohort team](https://github.com/orgs/xapicohort/teams/team-h5p) to discuss and work on [H5P](https://h5p.org/) and xAPI (both hosted and standalone).
 
+[Click here](https://docs.google.com/spreadsheets/d/1ikI2XvbAyZqqU7i02QIBXhnwAeafJP_kSgR8jfHPR4s/edit#gid=0) to view an ongoing list of xAPI coverage for H5P interactions.
+
 ## Work generated from the team:
 ### [h5p Standalone xAPI Wrapper](h5p-standalone-xapi-wrapper/README.md)
 - Results in xAPI package
