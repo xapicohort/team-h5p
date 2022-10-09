@@ -12,22 +12,25 @@ To see a working version of the standalone server, download and extract this [zi
 3. Extract the contents of the zip file. The file should unzip to a folder named `h5p-standalone-3.5.0`.
 
 ## Download sample HTML files 
-1. Go to [h5p-standalone/test](https://github.com/tunapanda/h5p-standalone/tree/master/test) and download these two sample HTML files to your `h5p-standalone-3.5.0` folder:  `single.html` and `multiple.html`. **Be sure to download the Raw files from GitHub.**
+1. Go to [h5p-standalone/test](https://github.com/tunapanda/h5p-standalone/tree/master/test), and download these two sample HTML files to your `h5p-standalone-3.5.0` folder. (**Be sure to download the Raw files.**)
+   * `single.html`
+   * `multiple.html`
 
 ## Add H5P content
 1. Within  the `h5p-standalone-3.5.0` folder, create a folder named `content.`
 2. Extract a couple of H5P files to the `content` folder. 
-a. Change `.h5p` to `.zip`.
-b. Copy the folder to `content`.
+   * Change `.h5p` to `.zip`.
+   * Unzip the `.zip` file to a folder.
+   * Copy the folder to `content`.
 
 ## Modify the HTML files to point to the H5P content
-1. Open `single.html` and  set `h5pJsonPath` to the path of the H5P content: `/content/h5p-folder-name` ... for example `/content/sort-paragraphs`.
-8. Open `multiple.html` and do the same.
+1. Open `single.html` and  set `h5pJsonPath` to the path of the H5P content: `/content/h5p-folder-name`. For example `/content/sort-paragraphs`.
+3. Open `multiple.html` and do the same.
 
 ## Run the standalone player
-I ran the player on a basic Python web server.
+Run the player on a web server. For example, to use Python as a web server:
 1. Open Terminal and navigate to the`h5p-standalone-3.5.0` folder.
 2. Start the web server: `python3 -m http.server`
 3. Open the HTML pages in your browser:
-a. To display the page with one interactive: [http://127.0.0.1:8000/single.html] (http://127.0.0.1:8000/single.html)
-b. To display the page with two interactives: [http://127.0.0.1:8000/multiple.html] (http://127.0.0.1:8000/multiple.html)
+   * To display the page with one interactive: [http://127.0.0.1:8000/single.html] (http://127.0.0.1:8000/single.html)
+   * To display the page with two interactives: [http://127.0.0.1:8000/multiple.html] (http://127.0.0.1:8000/multiple.html)
