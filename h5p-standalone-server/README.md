@@ -4,8 +4,6 @@ This is a work-in-progress: to capture xAPI statements from H5P interactives and
 
 Below are steps to setup [H5P Standalone Player](https://github.com/tunapanda/h5p-standalone) (by Tunapanda) on your local computer. This setup will display H5P interactives from a web server. It's not designed to be launched from an LMS. 
 
-To see a working version of the standalone server, download and extract this [zip file ](https://drive.google.com/file/d/178PKI1dSr28o1JooUahtzCV8pLVPYfEY/view?usp=sharing), then skip to the **Run the standalone player** section below. 
-
 ## Download the player
 1. Go to the H5P Standalone [releases page](https://github.com/tunapanda/h5p-standalone/releases/tag/v3.5.0).
 2. Download [h5p-standalone-3.5.0.zip](https://github.com/tunapanda/h5p-standalone/releases/download/v3.5.0/h5p-standalone-3.5.0.zip) from the **Assets** section (at the bottom of the page).
