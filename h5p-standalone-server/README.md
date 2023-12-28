@@ -30,5 +30,5 @@ Run the player on a web server. For example, to use Python as a web server:
 1. Open Terminal and navigate to the`h5p-standalone-3.5.0` folder.
 2. Start the web server: `python3 -m http.server`
 3. Open the HTML pages in your browser:
-   * To display the page with one interactive: [http://127.0.0.1:8000/single.html] (http://127.0.0.1:8000/single.html)
-   * To display the page with two interactives: [http://127.0.0.1:8000/multiple.html] (http://127.0.0.1:8000/multiple.html)
+   * To display the page with one interactive: [http://127.0.0.1:8000/single.html](http://127.0.0.1:8000/single.html)
+   * To display the page with two interactives: [http://127.0.0.1:8000/multiple.html](http://127.0.0.1:8000/multiple.html)
